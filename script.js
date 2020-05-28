@@ -350,12 +350,13 @@ function sendResults() {
             answer = `${answer}&entry.${fs_JSON[index].entry}=${fs_JSON[index].files[item - 1]}`;
         }
     });
-    answer = `${answer}&entry.${platformEntry}=${isMobile ? 'Mobile' : 'Desktop'}`;
-    answer = `${answer}&entry.${versionEntry}=${versionVal}`;
+	
+    //answer = `${answer}&entry.${platformEntry}=${isMobile ? 'Mobile' : 'Desktop'}`;
+    //answer = `${answer}&entry.${versionEntry}=${versionVal}`;
     var queryString = `/formResponse?${answer}&submit=SUBMIT`;
 
     var url = `https://docs.google.com/forms/d/e/${formId}${queryString}`;
-
+	
     var opts = {
         method: "POST",
         mode: "no-cors", // apparently Google will only submit a form if "mode" is "no-cors"
