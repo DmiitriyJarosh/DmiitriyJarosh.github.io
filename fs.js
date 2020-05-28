@@ -150,7 +150,7 @@ let fs_JSON = [
         files:['cropped_gt.png', 'results_mean.png', 'results_max.png']
     },
 ]
-let platformEntry ='749742724'
-let versionEntry ='459513751'
+let platformEntry ='1615124188'
+let versionEntry ='1016661609'
 let formId ='1FAIpQLSeRlDcLZr77TAkQp-t50JND2xRCBQPIypr37UJK3Woqlv3sXw'
 let versionVal = '1.0'
