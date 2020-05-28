@@ -25,19 +25,9 @@ let fs_JSON = [
         files:['cropped_gt.png', 'results_max.png', 'results_mean.png']
     },
     {
-        entry:'1257630578',
-        dir:'Data/6',
-        files:['results_max.png', 'cropped_gt.png', 'results_mean.png']
-    },
-    {
         entry:'653812323',
         dir:'Data/7',
         files:['results_mean.png', 'cropped_gt.png', 'results_max.png']
-    },
-    {
-        entry:'1408294189',
-        dir:'Data/8',
-        files:['cropped_gt.png', 'results_mean.png', 'results_max.png']
     },
     {
         entry:'33452074',
@@ -153,4 +143,4 @@ let fs_JSON = [
 let platformEntry ='1615124188'
 let versionEntry ='1016661609'
 let formId ='1FAIpQLSeRlDcLZr77TAkQp-t50JND2xRCBQPIypr37UJK3Woqlv3sXw'
-let versionVal = '1.0'
+let versionVal = '1.1'
