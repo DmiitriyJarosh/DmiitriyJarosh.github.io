@@ -40,7 +40,7 @@
 
 <p align="center">
   <button 
-    onclick="location.href='https://github.com/DmiitriyJarosh/DmiitriyJarosh.github.io/survey.html'" 
+    onclick="location.href='https://dmiitriyjarosh.github.io/survey.html'" 
     type="button"
     style="font-size: 1.5rem;">
       НАЧАТЬ ОПРОС
