@@ -38,11 +38,4 @@
 </p>
 * В конце опроса нажмите на кнопку "Отправить результаты". 
 
-<p align="center">
-  <button 
-    onclick="location.href='https://dmiitriyjarosh.github.io/survey.html'" 
-    type="button"
-    style="font-size: 1.5rem;">
-      НАЧАТЬ ОПРОС
-  </button>
-</p>
+[НАЧАТЬ ОПРОС](https://dmiitriyjarosh.github.io/survey.html)
