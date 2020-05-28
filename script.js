@@ -351,8 +351,8 @@ function sendResults() {
         }
     });
 	
-    //answer = `${answer}&entry.${platformEntry}=${isMobile ? 'Mobile' : 'Desktop'}`;
-    //answer = `${answer}&entry.${versionEntry}=${versionVal}`;
+    answer = `${answer}&entry.${platformEntry}=${isMobile ? 'Mobile' : 'Desktop'}`;
+    answer = `${answer}&entry.${versionEntry}=${versionVal}`;
     var queryString = `/formResponse?${answer}&submit=SUBMIT`;
 
     var url = `https://docs.google.com/forms/d/e/${formId}${queryString}`;

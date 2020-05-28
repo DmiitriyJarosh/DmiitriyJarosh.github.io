@@ -153,3 +153,4 @@ let fs_JSON = [
 let platformEntry ='749742724'
 let versionEntry ='459513751'
 let formId ='1FAIpQLSeRlDcLZr77TAkQp-t50JND2xRCBQPIypr37UJK3Woqlv3sXw'
+let versionVal = '1.0'
