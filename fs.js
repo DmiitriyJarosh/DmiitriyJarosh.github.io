@@ -21,7 +21,7 @@ let fs_JSON = [
     },
     {
         entry:'1145533237',
-        dir:'Data/5',
+        dir:'Data/6',
         files:['cropped_gt.png', 'results_max.png', 'results_mean.png']
     },
     {
