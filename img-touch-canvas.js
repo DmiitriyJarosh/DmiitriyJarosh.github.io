@@ -51,18 +51,18 @@ This code may be freely distributed under the MIT License
 		this.position.y = -this.imgTexture.height / 2;
 		
         this.checkRequestAnimationFrame();
-        
-		
 		
         if (this.imgTexture.complete) {
             requestAnimationFrame(this.animate.bind(this));
         } else {
             this.imgTexture.addEventListener('load', () => {
+                this.position.y = -this.imgTexture.height / 2;
                 requestAnimationFrame(this.animate.bind(this));
             });
         }
 
         this.setEventListeners();
+		
     };
 
 
